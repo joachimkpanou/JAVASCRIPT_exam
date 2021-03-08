@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="./style/scoring.css">
+    <title>DIVE INTO SAMPLE JavaScript</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="tab">
+      <table border="1" cellspacing="0">
+        <tr>
+          <td colspan="2"><p>Nom: Test Taro</p></td>
+        </tr>
+        <tr>
+          <td>Langue nationale:</td>
+          <td><input type="number" id="national_language" value=0></td>
+        </tr>
+         <tr>
+          <td>Anglais:</td>
+          <td><input type="number" id="english" value=0></td>
+        </tr>
+         <tr><td>Math:</td>
+          <td><input type="number" id="mathematics" value=0></td>
+        </tr>
+
+        <tr><td>Science:</td>
+          <td><input type="number" id="science" value=0></td>
+        </tr>
+        <tr><td>société:</td>
+          <td><input type="number" id="society" value=0></td>
+        </tr>
+      </table>
+    </div>
+      
+      <p>SCORE TOTAL :<label id="sum_indicate"></label></p>
+      <br>
+
+      <p>SCORE MOYEN :<label id="average_indicate"></label></p>
+      <br>
+
+      <p><label class="btn-primary" id="btn-evaluation">NIVEAU </label> ： <label id="evaluation"></label></p>
+      <br>
+
+      <p><label class="btn-success" id="btn-judge">APPRECIATION </label> ： <label id="judge"></label></p>
+      <br>
+
+      <p><label class="btn-warning" id="btn-declaration">DECISION FINALE </label> ： <label id="declaration"></label></p>
+    </div>
+    <script src="./style/jqueryxx.js"></script>
+    <script src="./style/scoring.js"></script>
+  </body>
+</html>
